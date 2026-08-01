@@ -12,6 +12,10 @@
 ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
+**[Live demo](https://scribe-agent-red.vercel.app)**
+
+<img src="docs/screenshots/dashboard.png" alt="Scribe Agent dashboard" width="620">
+
 Drop a voice memo, get a structured report. Scribe Agent transcribes an audio recording with Whisper, then has an LLM turn the transcript into a structured summary — title, key points, action items, follow-ups, sentiment — plus a clean downloadable Markdown report.
 
 Built as an original full-stack app (FastAPI + React) inspired by an n8n voice-memo automation, re-architected as a real product where **each user brings and controls their own API keys** — no shared or public credentials.
